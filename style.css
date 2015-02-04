@@ -1,0 +1,73 @@
+body{
+    background-image:url(http://i.imgur.com/ftDolY5.gif?1) no-repeat top center;
+}
+
+div#quote{
+    background-color: 333333
+}
+
+/* Type */
+#main-headline, h1, #last-headline, h2 {
+    font-family: "Museo Slab", "Sanchez Slab", serif; 
+}
+
+#main-headline, h1, #last-headline {
+   font-size:38px;  
+   line-height: 41px;
+   font-weight: 500;
+}
+
+h1, #last-headline, h2 {
+    color:#2c3e50;
+}
+
+#main-headline, h1 {
+    text-align: left
+}
+
+#last-headline, h2 {
+    text-align: center; 
+}
+
+#main-headline {
+    color:#FFF;
+}
+
+h2 {
+    font-size:25px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 33px;
+}
+
+h3 {
+    font-size:16px;
+    font-family: "Proxima Nova", Helvetica, Arial, sans-serif; 
+    color:#959595;
+    font-style: bold;
+    line-height: 19px;
+    text-align: center;
+}
+
+p, #first-paragraph, #last-paragraph {
+    font-size:18px;
+    font-family: "Proxima Nova", Helvetica, Arial, sans-serif; 
+    line-height: 22px;
+}
+
+p {
+    color:#2c3e50;
+    text-align: left;
+}
+
+#first-paragraph {
+    color:#FFF;
+    text-align: left;
+}
+
+#last-paragraph {
+    color:#2c3e50;
+    text-align: center;
+}
+
+
