@@ -22,6 +22,7 @@ header nav ul {
 header nav ul li {
     display: inline;
     padding:0px 20px;
+    text-align: right;
 }
 
 header nav ul li a {
@@ -33,37 +34,39 @@ header nav ul li a:hover {
     color:#959595;
 }
 
-li {
-    display: inline;
-    padding-right: 1.5em;
-    text-align: right;
-}
-
 div#come-write {
+    position: relative;
     background-color: #3aaa5e;
     background-image: url(http://i.imgur.com/ftDolY5.gif?1);
     background-size: cover;
     background-position: center center;
     margin: 0;
     min-height: 500px;
+    
+}
+
+div#main-headline, div#first-paragraph {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0,50%);
 }
 
 div#quote {
     background-color: #fff;
-    min-height: 500px;
+    min-height: 450px;
     vertical-align: middle;
 }
 
-
 div#copy-editors {
     background-color: #cccccc;
-    min-height: 500px;
+    min-height: 450px;
 }
 
 div#key-features {
     background-color: #fff;
     margin: 0;
-    min-height: 500px;
+    min-height: 450px;
 }
 
 div#footer {
@@ -75,7 +78,6 @@ div#footer {
 /* Headers */
 #main-headline, h1, #last-headline, h2 {
     font-family: "Museo Slab", "Sanchez Slab", serif; 
-    margin-top: 6em;
 }
 
 #main-headline, h1, #last-headline {
