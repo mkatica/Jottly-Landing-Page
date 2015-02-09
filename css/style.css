@@ -1,10 +1,12 @@
-body{
-    background-image:url(http://i.imgur.com/ftDolY5.gif?1) no-repeat top center;
-}
 /* Basic */
+div#header {
+    background-color: #fff;
+    min-height: 150px;
+}
+
 div#come-write {
     background-color: #3aaa5e;
-    background-image: url('../images/main-image.png');
+    background-image: url(http://i.imgur.com/ftDolY5.gif?1);
     background-size: cover;
     background-position: center center;
     margin: 0;
@@ -30,6 +32,7 @@ div#key-features {
 
 
 /* Type */
+/* Headers */
 #main-headline, h1, #last-headline, h2 {
     font-family: "Museo Slab", "Sanchez Slab", serif; 
 }
@@ -40,7 +43,14 @@ div#key-features {
    font-weight: 500;
 }
 
-h1, #last-headline, h2 {
+h3, h4 {
+    font-size:16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: .02em;
+}
+
+h1, #last-headline, h2, h4 {
     color:#2c3e50;
 }
 
@@ -64,13 +74,10 @@ h2 {
 }
 
 h3 {
-    font-size:16px;
     color:#959595;
-    font-style: bold;
-    line-height: 19px;
 }
 
-p, #first-paragraph, #last-paragraph, h3 {
+p, #first-paragraph, #last-paragraph, h3, h4 {
     font-family: "Proxima Nova", Helvetica, Arial, sans-serif; 
 }
 
