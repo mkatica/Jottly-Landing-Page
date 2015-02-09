@@ -1,7 +1,42 @@
-/* Basic */
-div.header {
+/* Navigation */
+header {
     background-color: #fff;
-    margin-top: 6rem;
+    margin-top: 20px;
+}
+
+header h1 {
+    margin:0;
+    display: inline;
+}
+
+header nav {
+    display:inline;
+}
+
+header nav ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+header nav ul li {
+    display: inline;
+    padding:0px 20px;
+}
+
+header nav ul li a {
+    color:#2c3e50;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color:#959595;
+}
+
+li {
+    display: inline;
+    padding-right: 1.5em;
+    text-align: right;
 }
 
 div#come-write {
@@ -107,10 +142,6 @@ p {
     text-align: center;
 }
 
-li {
-    display: inline;
-    padding-right: 1.5em;
-    text-align: right;
-}
+
 
 
