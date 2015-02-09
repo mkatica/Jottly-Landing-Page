@@ -30,7 +30,6 @@ div#key-features {
     min-height: 500px;
 }
 
-
 /* Type */
 /* Headers */
 #main-headline, h1, #last-headline, h2 {
@@ -43,14 +42,14 @@ div#key-features {
    font-weight: 500;
 }
 
-h3, h4 {
+h3, .navbar-item {
     font-size:16px;
     font-weight: 600;
     line-height: 19px;
     letter-spacing: .02em;
 }
 
-h1, #last-headline, h2, h4 {
+h1, #last-headline, h2, .navbar-item {
     color:#2c3e50;
 }
 
@@ -99,6 +98,10 @@ p {
 #last-paragraph {
     color:#2c3e50;
     text-align: center;
+}
+
+li {
+    display: inline;
 }
 
 
