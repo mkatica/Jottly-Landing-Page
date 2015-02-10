@@ -82,11 +82,6 @@ header nav ul li a:hover {
     
 }
 
-#footer {
-    background-color: #317F80;
-    min-height: 60px;
-}
-
 /* Type */
 
 #come-write h1, h1, h2 {
@@ -160,6 +155,48 @@ p {
 .herotype {
     margin: 147px 0;
 }
+
+/* Footer */
+#footer {
+    background-color: #317F80;
+    min-height: 60px;
+}
+
+#footer nav {
+    display:inline;
+}
+
+#footer nav ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+#footer nav ul li {
+    display: inline;
+    padding:0px 20px;
+    text-align: right;
+    font-family: "Proxima Nova", Helvetica, Arial, sans-serif; 
+    font-size:14px;
+}
+
+#footer nav ul li a {
+    color:#fff;
+    text-decoration: none;
+}
+
+#footer nav ul li a:hover {
+    color:#e1e1e1;
+}
+
+#footer .logo {
+    display:inline;
+    float: left;
+    padding:0px 10px;
+    margin-top: 15px;
+
+}
+
 
 
 
