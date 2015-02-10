@@ -1,3 +1,7 @@
+.full-width {
+    width: 100%;
+}
+
 /* Navigation */
 header {
     background-color: #fff;
@@ -34,18 +38,35 @@ header nav ul li a:hover {
     color:#959595;
 }
 
-div#come-write {
+#come-write {
     position: relative;
     background-color: #3aaa5e;
     background-image: url(http://i.imgur.com/ftDolY5.gif?1);
     background-size: cover;
     background-position: center center;
     margin: 0;
-    min-height: 500px;
-    
+    min-height: 500px; 
 }
 
-div#main-headline, div#first-paragraph {
+.herotype {
+    margin: 147px 0;
+}
+
+.half, .half2 {
+    width: 48%;
+    float: left;
+    margin: 147px 0;
+}
+.half2 {
+    float: right;
+}
+
+
+/*.macshell {
+    padding: 147px 0;
+}*/
+
+div#first-paragraph {
     margin: 0;
     position: absolute;
     top: 50%;
@@ -60,7 +81,7 @@ div#quote {
 
 div#copy-editors {
     background-color: #cccccc;
-    min-height: 450px;
+    height: 600px;
 }
 
 div#key-features {
@@ -76,11 +97,11 @@ div#footer {
 
 /* Type */
 /* Headers */
-#main-headline, h1, #last-headline, h2 {
+#come-write h1, #last-headline, h2 {
     font-family: "Museo Slab", "Sanchez Slab", serif; 
 }
 
-#main-headline, h1, #last-headline {
+#come-write h1, #last-headline {
    font-size:38px;  
    line-height: 41px;
    font-weight: 500;
@@ -105,7 +126,7 @@ h1, #last-headline, h2, .navbar-item {
     text-align: center; 
 }
 
-#main-headline {
+#come-write h1 {
     color:#FFF;
 }
 
@@ -120,11 +141,11 @@ h3 {
     color:#959595;
 }
 
-p, #first-paragraph, #last-paragraph, h3, h4 {
+#come-write p, h1, h3, h4 {
     font-family: "Proxima Nova", Helvetica, Arial, sans-serif; 
 }
 
-p, #first-paragraph, #last-paragraph, {
+#come-write p {
     font-size:18px;
     line-height: 22px;
 }
@@ -143,7 +164,4 @@ p {
     color:#2c3e50;
     text-align: center;
 }
-
-
-
 

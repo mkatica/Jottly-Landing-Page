@@ -1,0 +1,13 @@
+@media (max-width: 700px) {
+    .herotype {
+        margin: 40px 0;
+    }
+
+    #come-write {
+        min-height: 300px; 
+    }
+
+    .five.columns.herotype {
+        width: 80%;
+    }
+}
