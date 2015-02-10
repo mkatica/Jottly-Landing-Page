@@ -34,53 +34,66 @@ header nav ul li a:hover {
     color:#959595;
 }
 
-div#come-write {
-    position: relative;
-    background-color: #3aaa5e;
+/*Sections*/
+#come-write {
     background-image: url(http://i.imgur.com/ftDolY5.gif?1);
     background-size: cover;
     background-position: center center;
-    margin: 0;
     min-height: 500px;
     
 }
 
-div#main-headline, div#first-paragraph {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    transform: translate(0,50%);
-}
-
-div#quote {
+#quote {
     background-color: #fff;
     min-height: 450px;
     vertical-align: middle;
 }
 
-div#copy-editors {
-    background-color: #cccccc;
+#copy-editors {
+    background-color: #ebebeb;
     min-height: 450px;
 }
 
-div#key-features {
+.full-width {
+    width: 100%;
+}
+
+.half, .half2 {
+    width: 48%;
+    float: left;
+    margin: 85px 0;
+}
+.half2 {
+    float: right;
+    margin: 134px 0;
+}
+
+#key-features {
     background-color: #fff;
     margin: 0;
     min-height: 450px;
 }
 
-div#footer {
+#join-us {
+    background-image: url(http://i.imgur.com/PM66uIP.png?1);
+    background-size: cover;
+    background-position: center center;
+    min-height: 450px;
+    
+}
+
+#footer {
     background-color: #317F80;
     min-height: 60px;
 }
 
 /* Type */
-/* Headers */
-#main-headline, h1, #last-headline, h2 {
+
+#come-write h1, h1, h2 {
     font-family: "Museo Slab", "Sanchez Slab", serif; 
 }
 
-#main-headline, h1, #last-headline {
+#come-write h1, h1, #join-us h1 {
    font-size:38px;  
    line-height: 41px;
    font-weight: 500;
@@ -93,19 +106,19 @@ h3, .navbar-item {
     letter-spacing: .02em;
 }
 
-h1, #last-headline, h2, .navbar-item {
+h1, #join-us h1, h2, .navbar-item {
     color:#2c3e50;
 }
 
-#main-headline, h1 {
+#come-write h1, h1 {
     text-align: left
 }
 
-#last-headline, h2, h3 {
+#join-us h1, h2, h3 {
     text-align: center; 
 }
 
-#main-headline {
+#come-write h1, #come-write p {
     color:#FFF;
 }
 
@@ -120,11 +133,11 @@ h3 {
     color:#959595;
 }
 
-p, #first-paragraph, #last-paragraph, h3, h4 {
+p, #come-write p, h3, h4 {
     font-family: "Proxima Nova", Helvetica, Arial, sans-serif; 
 }
 
-p, #first-paragraph, #last-paragraph, {
+p, #come-write p, {
     font-size:18px;
     line-height: 22px;
 }
@@ -134,14 +147,18 @@ p {
     text-align: left;
 }
 
-#first-paragraph {
+#come-write p {
     color:#FFF;
     text-align: left;
 }
 
-#last-paragraph {
+#join-us p {
     color:#2c3e50;
     text-align: center;
+}
+
+.herotype {
+    margin: 147px 0;
 }
 
 
