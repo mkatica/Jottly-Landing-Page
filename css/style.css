@@ -77,12 +77,24 @@ header nav ul li a:hover {
     min-height: 450px;
 }
 
+.centered{
+    text-align: center;
+}
+
+#key-features img {
+    padding: 15px;
+}
+
 #join-us {
     background-image: url(http://i.imgur.com/PM66uIP.png?1);
     background-size: cover;
     background-position: center center;
     min-height: 450px;
     
+}
+
+#join-us .button2 {
+    text-align: center;
 }
 
 /* Type */
@@ -150,13 +162,20 @@ p {
     text-align: left;
 }
 
-#join-us p {
-    color:#2c3e50;
+#join-us p, #key-features p {
     text-align: center;
+}
+
+#join-us p {
+    color:#2c3e50;    
 }
 
 .herotype {
     margin: 147px 0;
+}
+
+#key-features h1 {
+    margin-top: 80px;
 }
 
 /* Footer */
