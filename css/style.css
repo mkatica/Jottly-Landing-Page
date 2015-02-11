@@ -2,6 +2,7 @@
 header {
     background-color: #fff;
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 header h1 {
@@ -34,6 +35,7 @@ header nav ul li a:hover {
     color:#959595;
 }
 
+
 /*Sections*/
 #come-write {
     background-image: url(http://i.imgur.com/ftDolY5.gif?1);
@@ -63,6 +65,7 @@ header nav ul li a:hover {
     float: left;
     margin: 85px 0;
 }
+
 .half2 {
     float: right;
     margin: 134px 0;
