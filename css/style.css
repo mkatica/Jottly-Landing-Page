@@ -93,10 +93,6 @@ header nav ul li a:hover {
     
 }
 
-#join-us .button2 {
-    text-align: center;
-}
-
 /* Type */
 
 #come-write h1, h1, h2 {
@@ -219,7 +215,82 @@ p {
 
 }
 
+/*Layout*/
+@media (max-width: 700px) {
+    .herotype {
+        margin: 100px 0;
+    }
 
+    #come-write {
+        min-height: 300px; 
+    }
+
+    .five.columns.herotype {
+        width: 80%;
+    }
+
+    #quote {
+      min-height: 200px;
+    }
+
+    #copy-editors {
+      min-height: 300px;
+    }
+
+    .half {
+/*How do I remove the float left from .half, or get the image centered*/
+      min-width: 400px;
+      margin: 40px 0px 0px 0px;  
+    }
+
+    .half2 {
+/*How do I remove the float right from .half2, or get the image centered*/
+      min-width: 400px;
+      clear: both;
+      margin: 20px 0px 40px 0px;  
+    }
+
+
+}
+
+@media only screen and (max-width: 479px) {
+
+    header h1 {
+        display:block;
+        text-align: center;
+        margin-top:20px;
+    }
+
+    #come-write h1, h1, #join-us h1 {
+        font-size: 30px;
+    }
+
+    p, #come-write p, {
+    font-size:16px;
+    line-height: 19px;
+    }
+
+    h2 {
+    font-size:22px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 30px;
+    }
+
+    .half {
+/*How do I remove the float left from .half, or get the image centered*/
+      min-width: 300px;
+      text-align: center;
+      margin: 40px 0px 0px 0px;  
+    }
+
+    .half2 {
+/*How do I remove the float right from .half2, or get the image centered*/
+      min-width: 300px;
+      margin: 20px 0px 40px 0px;  
+    }
+
+}
 
 
 
