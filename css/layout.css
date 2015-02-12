@@ -11,3 +11,13 @@
         width: 80%;
     }
 }
+
+@media only screen and (max-width: 479px) {
+
+    header h1 {
+      display:block;
+      text-align: center;
+      margin-top:20px;
+    }
+
+}
