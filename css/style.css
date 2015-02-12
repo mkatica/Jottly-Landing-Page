@@ -97,6 +97,11 @@ header nav ul li a:hover {
     position: absolute;
 }
 
+#footer .logo:hover {
+  color:#fff;
+  opacity:.7;
+}
+
 /* Type */
 
 #come-write h1, h1, h2 {
@@ -275,6 +280,19 @@ p {
     #join-us .six.columns.offset-by-three {
       width: 80%;
     }
+
+/*    #footer .eight.columns {
+      display: block;
+    }
+
+    #footer nav {
+      display:block;
+    }
+
+    #footer nav ul {
+      float:none;
+      text-align: center;
+    }*/
 
 }
 
