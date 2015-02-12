@@ -226,11 +226,11 @@ p {
     }
 
     #come-write {
-        min-height: 300px; 
+      min-height: 300px; 
     }
 
     .five.columns.herotype {
-        width: 80%;
+      width: 80%;
     }
 
     #quote {
@@ -241,8 +241,14 @@ p {
       min-height: 300px;
     }
 
-    #key-features {
-        min-height:300px;
+    #key-features .one-third.column {
+      min-width: 150px;
+    }
+
+    #key-features img {
+      max-width:100%; 
+      max-height:100%;
+      display:block;
     }
 
     .half {
@@ -253,13 +259,21 @@ p {
     }
 
     .half img {
-        padding-top: 50px;
+      padding-top: 50px;
     }
 
     .half2 {
       min-width: 400px;
       margin: 20px 20px 40px 20px;  
       float:none; 
+    }
+
+    #join-us {
+      min-height: 300px;
+    }
+
+    #join-us .six.columns.offset-by-three {
+      width: 80%;
     }
 
 }
@@ -303,6 +317,11 @@ p {
       min-width: 300px;
       margin: 20px 20px 40px 20px;  
       float:none; 
+    }
+
+    #key-features {
+        min-height:300px;
+        width:80%;
     }
 
 }
