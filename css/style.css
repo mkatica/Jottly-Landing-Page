@@ -63,15 +63,25 @@ header nav ul li a:hover {
     width: 100%;
 }
 
+.center {
+    text-align: center;
+}
+
 .half, .half2 {
     width: 48%;
     float: left;
-    margin: 85px 0;
 }
 
 .half2 {
     float: right;
+}
+
+.half-word {
     margin: 134px 0;
+}
+
+.half-puter {
+    margin: 85px 0;
 }
 
 #key-features {
@@ -97,7 +107,6 @@ header nav ul li a:hover {
 
 #join-us .button2 {
     text-align: center;
-    position: absolute;
 }
 
 #footer .logo:hover {
@@ -224,125 +233,5 @@ p {
     float: left;
     padding:0px 10px;
     margin-top: 15px;
-
-}
-
-/*Layout*/
-@media (max-width: 700px) {
-    .herotype {
-        margin: 100px 0;
-    }
-
-    #come-write {
-      min-height: 300px; 
-    }
-
-    .five.columns.herotype {
-      width: 80%;
-    }
-
-    #quote {
-      min-height: 200px;
-    }
-
-    #copy-editors {
-      min-height: 300px;
-    }
-
-    #key-features .one-third.column {
-      min-width: 150px;
-    }
-
-    #key-features img {
-      max-width:100%; 
-      max-height:100%;
-      display:block;
-    }
-
-    .half {
-      min-width: 400px;
-      text-align: center;
-      margin: 0px 20px; 
-      float:none; 
-    }
-
-    .half img {
-      padding-top: 50px;
-    }
-
-    .half2 {
-      min-width: 400px;
-      margin: 20px 20px 40px 20px;  
-      float:none; 
-    }
-
-    #join-us {
-      min-height: 300px;
-    }
-
-    #join-us .six.columns.offset-by-three {
-      width: 80%;
-    }
-
-/*    #footer .eight.columns {
-      display: block;
-    }
-
-    #footer nav {
-      display:block;
-    }
-
-    #footer nav ul {
-      float:none;
-      text-align: center;
-    }*/
-
-}
-
-@media only screen and (max-width: 479px) {
-
-    header h1 {
-        display:block;
-        text-align: center;
-        margin-top:20px;
-    }
-
-    #come-write h1, h1, #join-us h1 {
-        font-size: 30px;
-    }
-
-    p, #come-write p, {
-    font-size:16px;
-    line-height: 19px;
-    }
-
-    h2 {
-    font-size:22px;
-    font-weight: 300;
-    font-style: italic;
-    line-height: 30px;
-    }
-
-    .half {
-      min-width: 300px;
-      text-align: center;
-      margin: 0 20px;
-      float:none;  
-    }
-
-    .half img {
-        padding-top: 40px;
-    }
-
-    .half2 {
-      min-width: 300px;
-      margin: 20px 20px 40px 20px;  
-      float:none; 
-    }
-
-    #key-features {
-        min-height:300px;
-        width:80%;
-    }
 
 }
