@@ -54,16 +54,42 @@
 
     .macbook {
       padding-top: 50px;
+      margin: 0px auto;
     }
 
     .half2 {
+      margin: 0px auto;
+    }
+
+    #copy-editors .half2 {
+      float:left;
+    }
+
+   .need-writers {
+      min-width: 400px;
+      margin: 20px 20px 40px 20px;  
+      float:none;
+
+    }
+    
+/*    .half2 {
       min-width: 400px;
       margin: 20px 20px 40px 20px;  
       float:none; 
-    }
+    }*/
+
+/*        .half2 {
+      min-width: 400px;
+      margin: 20px 20px 40px 20px;  
+      float:none; 
+    }*/
 
     #join-us {
       min-height: 300px;
+    }
+
+    #footer .half2 {
+      float: right; 
     }
 
 /*    #join-us .six.columns.offset-by-three {
@@ -103,13 +129,8 @@
       float:none;  
     }
 
-    .half img {
-        padding-top: 40px;
-    }
-
     .half2 {
       min-width: 300px;
-      margin: 20px 20px 40px 20px;  
       float:none; 
     }
 
@@ -123,6 +144,19 @@
       text-align: center;
     }
 
+    #footer .logo {
+      margin-top: 20px;
+      padding: 0px 8px;
+    }
+
+    #footer .half2 {
+      min-width: 100px;
+    }
+
+    #footer nav ul li {
+    padding:0px 10px;
+
+}
 
 }
 

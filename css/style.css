@@ -63,11 +63,17 @@ header nav ul li a:hover {
 .half, .half2 {
     width: 48%;
     float: left;
+}
+.macbook, .need-writers {
     margin: 85px 0;
 }
 
-.half2 {
+#copy-editors .half2 {
+    width: 48%;
     float: right;
+
+}
+.need-writers {
     margin: 134px 0;
 }
 
@@ -201,7 +207,7 @@ p {
 
 #footer nav ul li {
     display: inline;
-    padding:0px 20px;
+    padding:0px 15px;
     text-align: right;
     font-family: "Proxima Nova", Helvetica, Arial, sans-serif; 
     font-size:14px;
