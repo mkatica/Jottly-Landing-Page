@@ -39,6 +39,17 @@ header nav ul li a:hover {
     color:#959595;
 }
 
+/* jQuery quote slider stuff */
+.textItem {
+    margin:0 auto;
+    display:none;
+    height: 100px;
+}
+
+#quotes {  
+    font-size:20px;
+}
+
 /*Sections*/
 #come-write {
     background-image: url(http://i.imgur.com/ftDolY5.gif?1);
@@ -115,7 +126,7 @@ header nav ul li a:hover {
 }
 
 /* Type */
-#come-write h1, h1, h2 {
+#textslide, #come-write h1, h1, h2 {
     font-family: "Museo Slab", "Sanchez Slab", serif; 
 }
 
@@ -149,11 +160,12 @@ h1, #join-us h1, h2, .navbar-item {
     color:#FFF;
 }
 
-h2 {
+#textslide, h2 {
     font-size:25px;
     font-weight: 300;
     font-style: italic;
     line-height: 33px;
+    text-align: center;
 }
 
 h3 {
