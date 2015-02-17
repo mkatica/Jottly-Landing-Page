@@ -97,10 +97,19 @@
 
 @media only screen and (max-width: 479px) {
 
-    header h1 {
-      display:block;
-      text-align: center;
-      margin-top:20px;
+    header {
+      position: static;
+    }
+
+
+    #menu-icon {
+      display:inline-block;
+      float: right;
+      margin: 10px 0px;
+    }
+
+    nav ul, nav:active ul { 
+      display: none;
     }
 
     #come-write h1, h1, #join-us h1 {
@@ -152,6 +161,10 @@
 
     #footer nav ul li {
       padding:0px 10px;
+    }
+
+    #footer nav ul, nav:active ul { 
+      display: inline-block;
     }
 
 }
