@@ -98,15 +98,15 @@ header nav ul li a:hover {
     min-height: 450px;   
 }
 
-#join-us .button2 {
-    text-align: center;
-    position: absolute;
-}
-
 #footer .logo:hover {
   color:#fff;
   opacity:.7;
 }
+
+.center{
+    text-align: center;
+}
+
 
 /* Type */
 

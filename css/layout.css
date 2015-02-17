@@ -1,10 +1,24 @@
-@media (max-width: 700px) {
+@media (max-width: 900px) {
     .herotype {
-        margin: 100px 0;
+      margin: 100px 0;
     }
 
+    #come-write {
+      min-height: 400px; 
+    }
+
+    #quote {
+      min-height: 300px;
+    }
+
+    .macbook {
+      margin: 150px 0;
+    }
+}
+
+@media (max-width: 750px) {
     #come-write h1, h1, #join-us h1 {
-        font-size: 34px;
+      font-size: 34px;
     }
 
     #come-write {
@@ -69,20 +83,7 @@
       min-width: 400px;
       margin: 20px 20px 40px 20px;  
       float:none;
-
     }
-    
-/*    .half2 {
-      min-width: 400px;
-      margin: 20px 20px 40px 20px;  
-      float:none; 
-    }*/
-
-/*        .half2 {
-      min-width: 400px;
-      margin: 20px 20px 40px 20px;  
-      float:none; 
-    }*/
 
     #join-us {
       min-height: 300px;
@@ -92,34 +93,30 @@
       float: right; 
     }
 
-/*    #join-us .six.columns.offset-by-three {
-      width: 100%;
-    }*/
-
 }
 
 @media only screen and (max-width: 479px) {
 
     header h1 {
-        display:block;
-        text-align: center;
-        margin-top:20px;
+      display:block;
+      text-align: center;
+      margin-top:20px;
     }
 
     #come-write h1, h1, #join-us h1 {
-        font-size: 30px;
+      font-size: 30px;
     }
 
     p, #come-write p, {
-    font-size:16px;
-    line-height: 19px;
+      font-size:16px;
+      line-height: 19px;
     }
 
     h2 {
-    font-size:22px;
-    font-weight: 300;
-    font-style: italic;
-    line-height: 30px;
+      font-size:22px;
+      font-weight: 300;
+      font-style: italic;
+      line-height: 30px;
     }
 
     .half {
@@ -135,8 +132,8 @@
     }
 
     #key-features {
-        min-width: ;
-        width:100%;
+      min-width: ;
+      width:100%;
     }
 
     #key-features h1 {
@@ -154,9 +151,8 @@
     }
 
     #footer nav ul li {
-    padding:0px 10px;
-
-}
+      padding:0px 10px;
+    }
 
 }
 
