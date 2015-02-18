@@ -35,7 +35,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <!-- HEADER -->
   <div class="container">
-    <header class="sixteen columns">
+    <header class="sixteen columns header">
       <h1 class="logo">
         <a href="#"><img class="scale-with-grid" src="images/logo.png"/></a>
       </h1>
@@ -64,7 +64,7 @@
 <!-- QUOTE -->   
   <div class="container" id="quote">
     <div class="six columns offset-by-three herotype">
-    <div id="quotes">
+    <div id="quotes" class="owl-carousel">
       <div class="textItem">
         <h2>&ldquo;Jottly is my one stop shop for talent. When I need copywriters, I go to Jott.ly.&rdquo;</h2>
         <h3>Tammy Johnson, P&amp;G Marketing</h3>
@@ -165,7 +165,7 @@
 
 <script type="text/javascript">
  
-  $(document).ready(function()
+  $(document).ready(function() 
     { setupRotator(); 
   });
  
@@ -191,12 +191,26 @@
          current.next().addClass('current').fadeIn(1000);
      }  
   }
+</script>
 
+<script>
   function alertMe() 
   {
     alert("Thank You!")  
-  }   
+  }
+</script>
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    
+<script>
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 1){  
+        $('header').addClass("sticky");
+    }
+    else{
+        $('header').removeClass("sticky");
+    }
+});
 </script>
 
 <!-- End Document

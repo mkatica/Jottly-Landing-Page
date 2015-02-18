@@ -1,13 +1,49 @@
 /* Navigation */
-header {
+/*header {
     background-color: #fff;
     margin-top: 20px;
     margin-bottom: 10px;
+    position: relative;
+}
+
+
+
+}*/
+
+header{
+  width: 100%;
+  line-height: 100px;
+  height: 100px;
+  background-color: #fff;
+/*  margin-top: 20px;
+  margin-bottom: 10px;*/
+  
+  // set animation
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+header.sticky {
+  line-height: 60px;
+  height: 60px; 
+  background: #fff;
+  padding-top: 10px
+  padding-bottom: 10px;
+/*  text-align: left;
+  padding-left: 20px;*/
 }
 
 header h1 {
-    margin:0;
-    display: inline;
+  display: inline;
+/*  margin-top: 20px;
+  margin-bottom: 10px;*/
+}
+
+.sticky header .logo {
+  width: 30px
+  height: 20px;
+/*  margin-top: 20px;
+  margin-bottom: 10px;*/
 }
 
 header nav {
@@ -17,7 +53,7 @@ header nav {
 header nav ul {
     float: right;
     list-style-type: none;
-    margin-top: 15px;
+/*    margin-top: 15px;*/
 }
 
 header nav ul li {
@@ -36,10 +72,10 @@ header nav ul li a:hover {
 }
 
 #menu-icon {
-    display: hidden;
-    width: 30px;
-    height: 30px;
-    background: url(http://i.imgur.com/cMicJDh.png) center;
+  display: hidden;
+  width: 30px;
+  height: 30px;
+  background: url(http://i.imgur.com/cMicJDh.png) center;
 }
 
 #menu-icon:hover {
