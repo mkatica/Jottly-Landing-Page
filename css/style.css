@@ -1,42 +1,13 @@
-#owl-demo .item img{
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-
 /* Navigation */
-
-header{
-  width: 100%;
-  line-height: 100px;
-  height: 100px;
-  background-color: #fff;
-
-  // set animation
-  -webkit-transition: all 0.2s ease;
-  transition: all 0.2s ease;
-}
-
-header.sticky {
-  line-height: 60px;
-  height: 60px; 
-  background: #317F80;
-  position:fixed;
-  width:100%;
-  left: 0;
-  top: 0;
-  z-index: 100;  
-  border-top: 0; 
+header {
+    background-color: #fff;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 header h1 {
-  display: inline;
-}
-
-header.sticky h1.logo {
-  height: 50%;
-  width: 50%;
+    margin:0;
+    display: inline;
 }
 
 header nav {
@@ -46,6 +17,7 @@ header nav {
 header nav ul {
     float: right;
     list-style-type: none;
+    margin-top: 15px;
 }
 
 header nav ul li {
@@ -64,27 +36,16 @@ header nav ul li a:hover {
 }
 
 #menu-icon {
-  display: hidden;
-  width: 30px;
-  height: 30px;
-  background: url(http://i.imgur.com/cMicJDh.png) center;
+    display: hidden;
+    width: 30px;
+    height: 30px;
+    background: url(http://i.imgur.com/cMicJDh.png) center;
 }
 
 #menu-icon:hover {
   color:#fff;
   opacity:.8;
 }
-
-header.sticky nav ul li a {
-    color:#fff;
-    text-decoration: none;
-}
-
-header.sticky nav ul li a:hover {
-    color:#959595;
-}
-
-
 
 /* jQuery quote slider stuff */
 .textItem {
@@ -294,8 +255,11 @@ p {
     margin-top: 15px;
 }
 
-
-
-
-
-
+.sticky {  
+    position: fixed;  
+    width: 100%;  
+    left: 0;  
+    top: 0;  
+    z-index: 100;  
+    border-top: 0;  
+}  
