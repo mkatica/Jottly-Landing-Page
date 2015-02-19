@@ -1,49 +1,42 @@
-/* Navigation */
-/*header {
-    background-color: #fff;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    position: relative;
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 
-
-}*/
+/* Navigation */
 
 header{
   width: 100%;
   line-height: 100px;
   height: 100px;
   background-color: #fff;
-/*  margin-top: 20px;
-  margin-bottom: 10px;*/
-  
+
   // set animation
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 header.sticky {
   line-height: 60px;
   height: 60px; 
-  background: #fff;
-  padding-top: 10px
-  padding-bottom: 10px;
-/*  text-align: left;
-  padding-left: 20px;*/
+  background: #317F80;
+  position:fixed;
+  width:100%;
+  left: 0;
+  top: 0;
+  z-index: 100;  
+  border-top: 0; 
 }
 
 header h1 {
   display: inline;
-/*  margin-top: 20px;
-  margin-bottom: 10px;*/
 }
 
-.sticky header .logo {
-  width: 30px
-  height: 20px;
-/*  margin-top: 20px;
-  margin-bottom: 10px;*/
+header.sticky h1.logo {
+  height: 50%;
+  width: 50%;
 }
 
 header nav {
@@ -53,7 +46,6 @@ header nav {
 header nav ul {
     float: right;
     list-style-type: none;
-/*    margin-top: 15px;*/
 }
 
 header nav ul li {
@@ -82,6 +74,17 @@ header nav ul li a:hover {
   color:#fff;
   opacity:.8;
 }
+
+header.sticky nav ul li a {
+    color:#fff;
+    text-decoration: none;
+}
+
+header.sticky nav ul li a:hover {
+    color:#959595;
+}
+
+
 
 /* jQuery quote slider stuff */
 .textItem {
@@ -291,14 +294,6 @@ p {
     margin-top: 15px;
 }
 
-.sticky {  
-    position: fixed;  
-    width: 100%;  
-    left: 0;  
-    top: 0;  
-    z-index: 100;  
-    border-top: 0;  
-}  
 
 
 
